@@ -10,14 +10,14 @@ export function About() {
     <section id="about" aria-labelledby="about-title" className="bg-white py-24 lg:py-36">
       <div className="container-luxe grid items-center gap-16 lg:grid-cols-12 lg:gap-20">
         <Reveal className="relative lg:col-span-5">
-          <div className="relative aspect-[4/5] overflow-hidden bg-sand">
+          <div className="relative aspect-[4/3] overflow-hidden bg-sand">
             {/* TODO: replace with the official office portrait (bookshelf with awards) once supplied. */}
             <Image
               src="/images/mudasir-qurat-property-time.jpg"
               alt="Mudasir Mushtaq with his sister and DRE co-founder, Qurat Ul Ain"
               fill
               sizes="(min-width: 1024px) 40vw, 100vw"
-              className="object-cover object-[30%_40%]"
+              className="object-cover object-[47%_30%]"
             />
           </div>
           <div aria-hidden className="absolute -top-4 -right-4 -z-0 hidden h-full w-full border border-gold/60 lg:block" style={{ zIndex: -1 }} />

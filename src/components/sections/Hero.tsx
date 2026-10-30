@@ -27,7 +27,17 @@ export function Hero() {
   return (
     <section aria-labelledby="hero-title" className="relative overflow-hidden bg-ivory pt-24">
       <div className="relative">
-        <div aria-hidden className="pinstripe absolute top-16 right-0 bottom-0 hidden w-[30%] bg-charcoal lg:block" />
+        <div aria-hidden className="absolute top-16 right-0 bottom-0 hidden w-[30%] overflow-hidden bg-charcoal lg:block">
+          <Image
+            src="/images/dubai-skyline.jpg"
+            alt=""
+            fill
+            sizes="30vw"
+            className="object-cover object-[50%_25%] opacity-50"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-charcoal/90 via-charcoal/30 to-charcoal/10" />
+          <div className="pinstripe absolute inset-0" />
+        </div>
         <div className="container-luxe relative grid min-h-[calc(100svh-6rem)] items-center gap-10 lg:grid-cols-12 lg:gap-0">
           <div className="relative z-10 order-2 pb-14 lg:order-1 lg:col-span-7 lg:pr-10 lg:pb-24">
             <motion.p {...fade(0.1)} className="eyebrow flex items-center gap-4 text-champagne-dark">

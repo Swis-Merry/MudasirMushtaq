@@ -63,6 +63,7 @@ reference a URL in `sources.ts`. Company awards must never be presented as perso
 - Property Time, "Trust & Transparency: DRE's 18-year-old Legacy" (Oct 2025) — https://www.propertytime.ae/featured/trust-transparency-dres-18-year-old-legacy/
 - Estate Magazine (Dubai Hills Estate HQ, 2025) — https://estatemagazine.ae/kurat-ul-ain-inspires-success-in-dubai-real/
 - Bayut TruBroker™ campaign creative and billboard — client-supplied (no public URL yet)
+- Hero skyline (`public/images/dubai-skyline.jpg`, greyscaled) — "Burj Khalifa skyscraper illuminated at night" by raghul ayyasamy, Unsplash License — https://unsplash.com/photos/burj-khalifa-skyscraper-illuminated-at-night-uuXaTSeuRVU
 
 Quotations used (verbatim, Gulf News 30 Sep 2024, credited there as "Mudasir Wani (MW)"):
 "Organisations are always built on people, processes and values." · "Innovation is a way of life today."
